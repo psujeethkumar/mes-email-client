@@ -26,13 +26,13 @@ public class ReadEmail {
 
 	// Get below values from the message flow properties.
 
-	private static String TENENT_ID = "c272261a-5184-4652-9972-a7bf2bf53f4d";
-	private static String CLIENT_ID = "83afd42d-6d51-44ef-8dbf-4989a32af887";
-	private static String CLIENT_SECRET = "YHH8Q~OCdS_WQLvms0hW9UJ3AsMXIzDbn5ce7cHy";
-	private static String SCOPE = "https://outlook.office365.com/.default";
-	private static final String URI = "https://outlook.office365.com/ews/exchange.asmx";
+	private static String TENENT_ID = "";
+	private static String CLIENT_ID = "";
+	private static String CLIENT_SECRET = "";
+	private static String SCOPE = "";
+	private static final String URI = "";
 	private static final String AUTHORITY = "https://login.microsoftonline.com/" + TENENT_ID + "/authorize";
-	private static final String MAILBOX = "fx.dev@luminus.be";
+	private static final String MAILBOX = "";
 
 	private static ConfidentialClientApplication app;
 
